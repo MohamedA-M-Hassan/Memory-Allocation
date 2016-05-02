@@ -30,7 +30,10 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QVector <int> processSize;
+    QVector <int> processAddress;
+    QVector <int> process;
     QVector <QPair < double,double > > hole;
+
 };
 
 #endif // MAINWINDOW_H
