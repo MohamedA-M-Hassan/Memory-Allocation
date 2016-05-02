@@ -35,5 +35,5 @@ void MainWindow::on_firstFit_clicked()
 void MainWindow::on_processInsertButton_clicked()
 {
     int x = ui->insert_2->text().toInt();
-    processSize.push_back(x);
+    //processSize.push_back(x);
 }
