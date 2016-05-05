@@ -20,3 +20,12 @@ QString Process::getName()
     {
         return name;
     }
+void setAddress(int x)
+{
+    address=x;
+}
+
+int getAddress()
+{
+    return address;
+}
