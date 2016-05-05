@@ -15,7 +15,8 @@ public:
     int getSize();
     void setName(QString x);
     QString getName();
-
+    void setAddress(int x);
+    int getAddress();
 
 };
 
