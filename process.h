@@ -6,14 +6,14 @@
 class Process
 {
 private:
-QList <int> size;
-QList <QString> name;
+int size;
+QString name;
 public:
     Process();
     void setSize(int x);
     int getSize();
-    void setProcess(QString x);
-    QString getprocess();
+    void setName(QString x);
+    QString getName();
 
 
 };
