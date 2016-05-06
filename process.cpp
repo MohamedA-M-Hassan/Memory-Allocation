@@ -5,21 +5,28 @@ Process::Process(){}
 
 void Process::setSize(int x)
     {
-        size.push_back(x);
+        size=x;
     }
 int Process::getSize()
     {
-        int x =  size.front();
-        size.pop_front();
-        return x;
+        return size;
     }
-void Process::setProcess(QString x)
+void Process::setName(QString x)
     {
-        name.push_back(x);
+        name=x;
     }
-QString Process::getprocess()
+
+QString Process::getName()
     {
-    QString x =  name.front();
-    name.pop_front();
-    return x;
+        return name;
     }
+void Process::setAddress(int x)
+{
+    address=x;
+
+}
+
+int Process::getAddress()
+{
+    return address;
+}

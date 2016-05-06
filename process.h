@@ -1,20 +1,22 @@
 #ifndef PROCESS_H
 #define PROCESS_H
-#include <QList>
 #include <QString>
 
 class Process
 {
 private:
-QList <int> size;
-QList <QString> name;
+int size;
+int address=-1; // -1 : not allocated process
+QString name;
+
 public:
     Process();
     void setSize(int x);
     int getSize();
-    void setProcess(QString x);
-    QString getprocess();
-
+    void setName(QString x);
+    QString getName();
+    void setAddress(int x);
+    int getAddress();
 
 };
 
