@@ -13,7 +13,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::on_insertButton_clicked()
 {
     int x= ui->insert->text().toInt();
