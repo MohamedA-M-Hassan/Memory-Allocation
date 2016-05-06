@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    process.cpp
+    process.cpp \
+    allocate.cpp
 
 HEADERS  += mainwindow.h \
-    process.h
+    process.h \
+    allocate.h
 
 FORMS    += mainwindow.ui
